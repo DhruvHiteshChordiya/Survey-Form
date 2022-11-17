@@ -1,1 +1,200 @@
-# Survey-Form
+
+<HTML>
+
+<HEAD>
+
+
+
+<META NAME="GENERATOR" 
+   CONTENT="Internet Assistant for Microsoft Word 2.0z Beta">
+</HEAD>
+
+<BODY>
+
+<H1><CENTER> Survey Form</CENTER></H1>
+
+<H3><CENTER>ALL ABOUT EDUCATION SYSTEM IN INDIA</CENTER></H3>
+
+
+<form method=post>
+ 
+<P>
+
+
+<P>
+The purpose of the survey would be stated here at the top of the
+survey. This survey should take less than 10 minutes to complete.
+
+<P>
+Some simple  information could be collected with radio
+buttons (e.g., gender, nationality), selection boxes (e.g., date
+of birth, highest degree attained)To see your  .....
+<FORM >
+
+<H3>Please tell us a little about yourself first. </H3>
+<fieldset name="personalia">
+  Name: <input type="text"><br>
+  
+
+
+<P>
+Gender: <INPUT TYPE="RADIO" NAME="gender" VALUE="1">Male 
+        <INPUT TYPE="RADIO" NAME="gender" VALUE="2">Female
+
+<P>
+Date of birth: Month <SELECT NAME="mob" >
+<OPTION SELECTED VALUE=""> 
+<OPTION VALUE="1">Jan
+<OPTION VALUE="2">Feb
+<OPTION VALUE="3">Mar
+<OPTION VALUE="4">Apr
+<OPTION VALUE="5">May
+<OPTION VALUE="6">Jun
+<OPTION VALUE="7">Jul
+<OPTION VALUE="8">Aug
+<OPTION VALUE="9">Sep
+<OPTION VALUE="10">Oct
+<OPTION VALUE="11">Nov
+<OPTION VALUE="12">Dec</SELECT>     Day <SELECT NAME="dob">
+<OPTION SELECTED VALUE="">
+<OPTION>1
+<OPTION>2
+<OPTION>3
+<OPTION>4
+<OPTION>5
+<OPTION>6
+<OPTION>7
+<OPTION>8
+<OPTION>9
+<OPTION>10
+<OPTION>11
+<OPTION>12
+<OPTION>13
+<OPTION>14
+<OPTION>15
+<OPTION>16
+<OPTION>17
+<OPTION>18
+<OPTION>19
+<OPTION>20
+<OPTION>21
+<OPTION>22
+<OPTION>23
+<OPTION>24
+<OPTION>25
+<OPTION>26
+<OPTION>27
+<OPTION>28
+<OPTION>29
+<OPTION>30
+<OPTION>31 </SELECT>     Year <SELECT NAME="yob">
+<OPTION SELECTED VALUE=""> 
+<OPTION>1965
+<OPTION>1966
+<OPTION>1967
+<OPTION>1968
+<OPTION>1969
+<OPTION>1970
+<OPTION>1971
+<OPTION>1972
+<OPTION>1973
+<OPTION>1974
+<OPTION>1975
+<OPTION>1976
+<OPTION>1977
+<OPTION>1978
+<OPTION>1979
+<OPTION>1980</SELECT>     
+<P>
+<P>
+Highest degree attained: <SELECT NAME="educ" >
+<OPTION SELECTED VALUE=""> 
+<OPTION VALUE="1">H.S. diploma
+<OPTION VALUE="2">Assoc. degree
+<OPTION VALUE="3">Bachelor's degree
+<OPTION VALUE="4">Master's degree
+<OPTION VALUE="5">Doctoral degree</SELECT>     
+
+</fieldset>
+<hr><H3>The following series of questions ask about your feelings
+toward Education. Select the answer that is true most of the time.
+</H3>
+
+<P>
+
+<TABLE BORDER>
+
+<TR ALIGN=CENTER>
+<TD WIDTH=75> </TD>
+<TD WIDTH=75><B>Strongly<br>agree</B></TD>
+<TD WIDTH=75><B>Agree</B></TD>
+<TD WIDTH=75><B>Neither<br>agree<br>nor<br>disagree</B></TD>
+<TD WIDTH=75><B>Disagree</B></TD>
+<TD WIDTH=75><B>Strongly<br>disagree</B></TD>
+</TR>
+
+<TR ALIGN=CENTER>
+<TD  ALIGN=LEFT>
+  The Education is very stimulating.</TD>
+<TD><INPUT TYPE="RADIO" NAME="stimulat" VALUE="1"></TD>
+<TD><INPUT TYPE="RADIO" NAME="stimulat" VALUE="2"></TD>
+<TD><INPUT TYPE="RADIO" NAME="stimulat" VALUE="3"></TD>
+<TD><INPUT TYPE="RADIO" NAME="stimulat" VALUE="4"></TD>
+<TD><INPUT TYPE="RADIO" NAME="stimulat" VALUE="5"></TD>
+</TR>
+
+<TR ALIGN=CENTER>
+<TD  ALIGN=LEFT>
+  We have a lot of freedom .</TD>
+<TD><INPUT TYPE="RADIO" NAME="freedom" VALUE="1"></TD>
+<TD><INPUT TYPE="RADIO" NAME="freedom" VALUE="2"></TD>
+<TD><INPUT TYPE="RADIO" NAME="freedom" VALUE="3"></TD>
+<TD><INPUT TYPE="RADIO" NAME="freedom" VALUE="4"></TD>
+<TD><INPUT TYPE="RADIO" NAME="freedom" VALUE="5"></TD>
+</TR>
+
+<TR ALIGN=CENTER>
+<TD  ALIGN=LEFT>
+   It has produced so many genius minds that are making India proud all over the world.</TD>
+<TD><INPUT TYPE="RADIO" NAME="demand" VALUE="1"></TD>
+<TD><INPUT TYPE="RADIO" NAME="demand" VALUE="2"></TD>
+<TD><INPUT TYPE="RADIO" NAME="demand" VALUE="3"></TD>
+<TD><INPUT TYPE="RADIO" NAME="demand" VALUE="4"></TD>
+<TD><INPUT TYPE="RADIO" NAME="demand" VALUE="5"></TD>
+</TR>
+
+<TR ALIGN=CENTER>
+<TD  ALIGN=LEFT> Education is more exploration than slogging for passing examinations and tests.</TD>
+<TD><INPUT TYPE="RADIO" NAME="creative" VALUE="1"></TD>
+<TD><INPUT TYPE="RADIO" NAME="creative" VALUE="2"></TD>
+<TD><INPUT TYPE="RADIO" NAME="creative" VALUE="3"></TD>
+<TD><INPUT TYPE="RADIO" NAME="creative" VALUE="4"></TD>
+<TD><INPUT TYPE="RADIO" NAME="creative" VALUE="5"></TD>
+</TR>
+
+</TABLE>
+
+<HR>
+<p>Do you have any additional thoughts on the topic of the survey?<P>
+
+<TEXTAREA NAME="comment" ROWS="4"  COLS="50">
+</TEXTAREA>
+<br><br>If you would like to have a copy of the final summary results sent to you, 
+please type your e-mail address below:
+<br>
+
+<b>E-mail address: <INPUT TYPE="text" NAME="email" SIZE=40 MAXLENGTH=80></b>
+
+<P><P>
+Thank you for taking the survey.  To submit the results, press the 
+<B>Send info</B> button below.
+<P><P>
+ 
+<input type=submit VALUE="Send info"> <input type=reset VALUE="Clear values"> <button onclick="myFunction()">Try Again</button>
+
+
+
+</FORM>
+
+</BODY>
+</HTML>
